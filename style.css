@@ -1,0 +1,13 @@
+﻿*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html{
+    font-family:Verdana,Arial,sans-serif;
+}
+body{
+    height:100%;
+    width:100%;
+    background-color:antiquewhite;
+}
