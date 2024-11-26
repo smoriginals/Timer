@@ -7,7 +7,64 @@ html{
     font-family:Verdana,Arial,sans-serif;
 }
 body{
-    height:100%;
-    width:100%;
-    background-color:antiquewhite;
+    height:100vh;
+    width:100vw;
+}
+.container {
+    height: 100%;
+    width: 100%;
+    background-color: antiquewhite;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+}
+.items {
+    height: 60%;
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    position:relative;
+    gap: 20px;
+
+}
+.items .eta{
+    height:70%;
+    width:50%;
+    background-color:chocolate;
+    margin:0 auto;
+    position:absolute;
+    top:60%;
+    left:25%;
+    border-radius:10px;
+    font-size:2rem;
+    border:2px solid black;
+    transform:translateY(-50%);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.times {
+    height: 15%;
+    width: 20%;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size:1.5rem;
+    font-weight:bold;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+}
+.ip{
+    text-align:center;
+    appearance:none;
+    user-select:none;
+    content:none;
+    font-size:1.1rem;
+    font-weight:bold;
 }
