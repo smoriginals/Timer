@@ -1,2 +1,1 @@
-# Timer
- Countdown Timer for Daily Routins
+[OPEN IN BROWSER](https://smos-github.github.io/Timer/)
